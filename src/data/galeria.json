@@ -40,47 +40,5 @@
         "src": "assets/DanielGallery/tatuaje8.webp",
         "alt": "ojoxojo tattoo studio"
       }
-    ],
-    "artistaYojana": [
-        {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje1.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje2.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje3.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje4.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje5.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje6.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje7.webp",
-            "alt": "ojoxojo tattoo studio"
-          },
-          {
-            "type": "photo",
-            "src": "assets/YojanaGallery/tatuaje8.webp",
-            "alt": "ojoxojo tattoo studio"
-          }
     ]
   }

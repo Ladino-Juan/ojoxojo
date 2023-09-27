@@ -56,8 +56,9 @@ const NavBar = () => {
             </li>
             <li className="pr-4 relative group">
               <a
+              onClick={() => navigate("/#patrocinadores")}
                 className="hover:text-blanco transition-all duration-700"
-                href="#patrocinadores"
+                href="/#patrocinadores"
                 aria-label="ojoxojo tattoo studio patrocinadores"
               >
                 PATROCINADORES
@@ -97,7 +98,8 @@ const NavBar = () => {
         </li>
         <li className="pr-4 relative group">
           <a
-            href="#patrocinadores"
+            onClick={() => navigate("/#patrocinadores")}
+            href="/#patrocinadores"
             aria-label="ojoxojo tattoo studio patrocinadores"
           >
             PATROCINADORES

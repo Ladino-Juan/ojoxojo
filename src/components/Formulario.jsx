@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { XIcon } from "@heroicons/react/outline";
 
 
 const Formulario = () => {
@@ -9,6 +10,13 @@ const Formulario = () => {
     telefono: "",
     imagen: null,
   };
+
+  const [formularioVisible, setFormularioVisible] = useState(false);
+
+  const toggleFormVisibility = () => {
+    setFormularioVisible(!formularioVisible);
+  };
+
 
   const [formData, setFormData] = useState(initialFormData);
 
@@ -79,6 +87,7 @@ const Formulario = () => {
         alert("Gracias por agendar tu cita. Pronto te contactaremos.")
         console.log("Text message sent:", data);
       } catch (error) {
+        alert("Ocurrio un error, vuelve a intenta más tarde")
         console.error("Error sending text message:", error);
       }
     }
@@ -90,6 +99,16 @@ const Formulario = () => {
   };
 
   return (
+    <div
+    id="formulario"
+    className="fixed max-sm:left-10 top-20 w-[50vw] max-sm:w-[80vw] h-[75vh] bg-gray-800 text-gray z-20 rounded-xl"
+  >
+    <button
+      onClick={toggleFormVisibility}
+      className="absolute top-2 right-2 text-xl font-bold text-gray cursor-pointer"
+    >
+      <XIcon className="w-5 text-blanco text-3xl hover:text-black" />
+    </button>
     <div className="flex">
       <form className="p-6 flex flex-col font-libre" onSubmit={handleSubmit}>
         {/* Resto de tu formulario con los campos controlados */}
@@ -177,6 +196,7 @@ const Formulario = () => {
           información que necesitas.
         </p>
       </div>
+    </div>
     </div>
   );
 };

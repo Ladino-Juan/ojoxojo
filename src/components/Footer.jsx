@@ -40,18 +40,6 @@ const Footer = () => {
             alt="Instagram ojoxojo tattoo studio"
           ></img>
         </a>
-        <a
-          href="https://www.tiktok.com/@yojanaferia"
-          aria-label="tiktok Yojana Feria ojoxojo tattoo studio"
-          target="_blank"
-          className="mr-2"
-          rel="noopener noreferrer"
-        >
-          <img
-            src="icons/tiktok-icon.svg"
-            alt="tiktok ojoxojotattoo studio"
-          ></img>
-        </a>
 
         <a href="https://davidladino.netlify.app/"
           aria-label="David Ladino Portfolio"

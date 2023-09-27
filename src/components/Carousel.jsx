@@ -5,9 +5,6 @@ import { ArrowLeftIcon } from "@heroicons/react/outline";
 const Carousel = () => {
   const videos = [
     {
-      url: "assets/carousel/video_ojoxojo_4.mp4",
-    },
-    {
       url: "assets/carousel/video_ojoxojo_2.mp4",
     },
     {
