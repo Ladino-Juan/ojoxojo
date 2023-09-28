@@ -11,7 +11,7 @@ const Home = () => {
   };
 
   const sendWhatsApp = () => {
-    const phonenumber = "+573205279852";
+    const phonenumber = "+573128398126";
 
     const url = `https://wa.me/${phonenumber}?text=Para obtener tu cotización y tu cita envianos una imagen de referencia del diseño que quieres, una foto del lugar de tu cuerpo que deseas tatuar y tamaño aproximado en cm y te damos toda la información`;
 
