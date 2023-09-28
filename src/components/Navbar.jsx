@@ -42,7 +42,6 @@ const NavBar = () => {
               <a
                 onClick={handleRoute}
                 className="hover:text-blanco transition-all duration-700"
-                href="/daniel_bedoya"
                 aria-label="tatuajes realizados en ojoxojo tattoo studio"
               >
                 GALERIA
@@ -89,7 +88,6 @@ const NavBar = () => {
           <a
             onClick={handleRoute}
             aria-label="tatuajes realizados en ojoxojo tattoo studio"
-            href="/daniel_bedoya"
           >
             GALERIA
           </a>
