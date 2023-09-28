@@ -4,6 +4,9 @@ import { useNavigate } from "react-router-dom";
 
 const NavBar = () => {
   const navigate = useNavigate();
+  const handleRoute = () => {
+    navigate("/daniel_bedoya");
+  };
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
@@ -37,7 +40,7 @@ const NavBar = () => {
           <ul className="hidden md:flex">
             <li className="pr-4 relative group">
               <a
-                onClick={() => navigate("/daniel_bedoya")}
+                onClick={handleRoute}
                 className="hover:text-blanco transition-all duration-700"
                 href="/daniel_bedoya"
                 aria-label="tatuajes realizados en ojoxojo tattoo studio"
@@ -84,7 +87,7 @@ const NavBar = () => {
       >
         <li className="pr-4 relative group">
           <a
-            onClick={() => navigate("/daniel_bedoya")}
+            onClick={handleRoute}
             aria-label="tatuajes realizados en ojoxojo tattoo studio"
             href="/daniel_bedoya"
           >
