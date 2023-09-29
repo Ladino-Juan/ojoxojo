@@ -14,7 +14,7 @@ const DanielGallery = () => {
           </p>
         </div>
         <img
-          src="assets/daniel_background.jpg"
+          src="assets/daniel_background.webp"
           className="object-cover max-sm:object-none w-full h-screen -z-10 absolute opacity-30"
           alt="Background Image"
         ></img>
