@@ -7,7 +7,7 @@ export default {
         libre: ["Libre Franklin", "sans-serif"],
       },
       colors: {
-        amarillo: "#FFED03CC",
+        amarillo: "#FFED03",
         blanco: "#F5F5F7",
       },
     },

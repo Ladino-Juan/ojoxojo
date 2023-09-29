@@ -41,7 +41,7 @@ const NavBar = () => {
             <li className="pr-4 relative group">
               <a
                 onClick={handleRoute}
-                className="hover:text-blanco transition-all duration-700"
+                className="hover:text-blanco cursor-pointer transition-all duration-700"
                 aria-label="tatuajes realizados en ojoxojo tattoo studio"
               >
                 GALERIA
