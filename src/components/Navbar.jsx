@@ -10,6 +10,7 @@ const NavBar = () => {
 
   const [nav, setNav] = useState(false);
   const handleClick = () => setNav(!nav);
+  
 
   return (
     <div
